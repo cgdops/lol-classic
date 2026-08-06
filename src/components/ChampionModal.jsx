@@ -326,6 +326,10 @@ export default function ChampionModal({ champion, currentIndex, championList, on
                   <div style={{ color: '#F0E6D2', fontWeight: 700, fontSize: '0.9rem' }}>{champion.stats.magicResist}</div>
                 </div>
                 <div style={{ background: 'rgba(5,7,12,0.6)', padding: '0.5rem', borderRadius: '4px', border: '1px solid rgba(120,90,40,0.3)' }}>
+                  <span style={{ color: '#949084', fontSize: '0.75rem' }}>Attack Range</span>
+                  <div style={{ color: '#0AC8B9', fontWeight: 700, fontSize: '0.9rem' }}>{champion.stats.attackRange || 125}</div>
+                </div>
+                <div style={{ background: 'rgba(5,7,12,0.6)', padding: '0.5rem', borderRadius: '4px', border: '1px solid rgba(120,90,40,0.3)' }}>
                   <span style={{ color: '#949084', fontSize: '0.75rem' }}>Move Speed</span>
                   <div style={{ color: '#F0E6D2', fontWeight: 700, fontSize: '0.9rem' }}>{champion.stats.ms}</div>
                 </div>

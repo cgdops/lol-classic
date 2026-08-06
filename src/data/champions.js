@@ -17,7 +17,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.61,
       "armor": 19,
       "magicResist": 30,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 625
     },
     "passive": {
       "name": "Pyromania",
@@ -98,7 +99,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.694,
       "armor": 35,
       "magicResist": 32,
-      "ms": 350
+      "ms": 350,
+      "attackRange": 125
     },
     "passive": {
       "name": "Berserker Rage",
@@ -179,7 +181,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.651,
       "armor": 21,
       "magicResist": 30,
-      "ms": 330
+      "ms": 330,
+      "attackRange": 525
     },
     "passive": {
       "name": "Loaded Dice",
@@ -260,7 +263,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 34,
       "magicResist": 30,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 480
     },
     "passive": {
       "name": "Dread",
@@ -341,7 +345,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 26,
       "magicResist": 22,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 175
     },
     "passive": {
       "name": "Holy Fervor",
@@ -422,7 +427,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.679,
       "armor": 33,
       "magicResist": 32,
-      "ms": 355
+      "ms": 355,
+      "attackRange": 175
     },
     "passive": {
       "name": "Double Strike",
@@ -503,7 +509,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 47,
       "magicResist": 32,
-      "ms": 330
+      "ms": 330,
+      "attackRange": 125
     },
     "passive": {
       "name": "Trample",
@@ -584,7 +591,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.658,
       "armor": 22,
       "magicResist": 32,
-      "ms": 340
+      "ms": 340,
+      "attackRange": 550
     },
     "passive": {
       "name": "Arcane Mastery",
@@ -664,7 +672,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.679,
       "armor": 32,
       "magicResist": 32,
-      "ms": 345
+      "ms": 345,
+      "attackRange": 175
     },
     "passive": {
       "name": "Feel No Pain",
@@ -745,7 +754,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 26,
       "magicResist": 30,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 500
     },
     "passive": {
       "name": "Fleet of Foot",
@@ -825,7 +835,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 32,
       "magicResist": 30,
-      "ms": 325
+      "ms": 325,
+      "attackRange": 550
     },
     "passive": {
       "name": "Consecration",
@@ -906,7 +917,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.69,
       "armor": 24,
       "magicResist": 30,
-      "ms": 330
+      "ms": 330,
+      "attackRange": 500
     },
     "passive": {
       "name": "Camouflage",
@@ -987,7 +999,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.656,
       "armor": 30,
       "magicResist": 28,
-      "ms": 325
+      "ms": 325,
+      "attackRange": 525
     },
     "passive": {
       "name": "Draw a Bead",
@@ -1068,7 +1081,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.638,
       "armor": 33,
       "magicResist": 32,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 125
     },
     "passive": {
       "name": "Eternal Thirst",
@@ -1149,7 +1163,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 29,
       "magicResist": 32,
-      "ms": 345
+      "ms": 345,
+      "attackRange": 125
     },
     "passive": {
       "name": "Visionary",
@@ -1230,7 +1245,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.656,
       "armor": 28,
       "magicResist": 30,
-      "ms": 325
+      "ms": 325,
+      "attackRange": 550
     },
     "passive": {
       "name": "Strut",
@@ -1311,7 +1327,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.658,
       "armor": 26,
       "magicResist": 30,
-      "ms": 325
+      "ms": 325,
+      "attackRange": 600
     },
     "passive": {
       "name": "Focus",
@@ -1392,7 +1409,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.67,
       "armor": 33,
       "magicResist": 32,
-      "ms": 345
+      "ms": 345,
+      "attackRange": 175
     },
     "passive": {
       "name": "Battle Fury",
@@ -1473,7 +1491,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.638,
       "armor": 36,
       "magicResist": 32,
-      "ms": 350
+      "ms": 350,
+      "attackRange": 125
     },
     "passive": {
       "name": "Equipment Mastery",
@@ -1553,7 +1572,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 25,
       "magicResist": 30,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 450
     },
     "passive": {
       "name": "Soul Siphon",
@@ -1634,7 +1654,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.658,
       "armor": 24,
       "magicResist": 30,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 550
     },
     "passive": {
       "name": "Heightened Learning",
@@ -1715,7 +1736,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 34,
       "magicResist": 32,
-      "ms": 345
+      "ms": 345,
+      "attackRange": 125
     },
     "passive": {
       "name": "Empowered Bulwark",
@@ -1796,7 +1818,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.667,
       "armor": 37,
       "magicResist": 32,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 125
     },
     "passive": {
       "name": "Shadow Walk",
@@ -1877,7 +1900,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.679,
       "armor": 27,
       "magicResist": 30,
-      "ms": 330
+      "ms": 330,
+      "attackRange": 550
     },
     "passive": {
       "name": "Deadly Venom",
@@ -1958,7 +1982,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 21,
       "magicResist": 30,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 450
     },
     "passive": {
       "name": "Death Defied",
@@ -2038,7 +2063,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 38,
       "magicResist": 32,
-      "ms": 345
+      "ms": 345,
+      "attackRange": 125
     },
     "passive": {
       "name": "Carnivore",
@@ -2119,7 +2145,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.736,
       "armor": 30,
       "magicResist": 32,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 125
     },
     "passive": {
       "name": "Cursed Touch",
@@ -2200,7 +2227,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.656,
       "armor": 40,
       "magicResist": 32,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 125
     },
     "passive": {
       "name": "Spiked Shell",
@@ -2280,7 +2308,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.658,
       "armor": 21,
       "magicResist": 30,
-      "ms": 325
+      "ms": 325,
+      "attackRange": 600
     },
     "passive": {
       "name": "Rebirth",
@@ -2361,7 +2390,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.694,
       "armor": 30,
       "magicResist": 32,
-      "ms": 345
+      "ms": 345,
+      "attackRange": 125
     },
     "passive": {
       "name": "Backstab",
@@ -2441,7 +2471,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.67,
       "armor": 32,
       "magicResist": 29,
-      "ms": 345
+      "ms": 345,
+      "attackRange": 125
     },
     "passive": {
       "name": "Adrenaline Rush",
@@ -2522,7 +2553,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.644,
       "armor": 26,
       "magicResist": 30,
-      "ms": 325
+      "ms": 325,
+      "attackRange": 550
     },
     "passive": {
       "name": "Power Chord",
@@ -2603,7 +2635,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.64,
       "armor": 19,
       "magicResist": 30,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 150
     },
     "passive": {
       "name": "Void Stone",
@@ -2684,7 +2717,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 28,
       "magicResist": 30,
-      "ms": 325
+      "ms": 325,
+      "attackRange": 550
     },
     "passive": {
       "name": "Tailwind",
@@ -2765,7 +2799,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.658,
       "armor": 31,
       "magicResist": 32,
-      "ms": 345
+      "ms": 345,
+      "attackRange": 125
     },
     "passive": {
       "name": "Grog-Soaked Blade",
@@ -2845,7 +2880,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.638,
       "armor": 28,
       "magicResist": 30,
-      "ms": 325
+      "ms": 325,
+      "attackRange": 550
     },
     "passive": {
       "name": "Hextech Shrapnel Shells",
@@ -2926,7 +2962,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 40,
       "magicResist": 28,
-      "ms": 340
+      "ms": 340,
+      "attackRange": 150
     },
     "passive": {
       "name": "Gemcraft",
@@ -3007,7 +3044,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 18,
       "magicResist": 32,
-      "ms": 340
+      "ms": 340,
+      "attackRange": 550
     },
     "passive": {
       "name": "Equilibrium",
@@ -3087,7 +3125,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 40,
       "magicResist": 32,
-      "ms": 325
+      "ms": 325,
+      "attackRange": 125
     },
     "passive": {
       "name": "Mana Barrier",
@@ -3168,7 +3207,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.736,
       "armor": 37,
       "magicResist": 28,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 125
     },
     "passive": {
       "name": "Granite Shield",
@@ -3249,7 +3289,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.658,
       "armor": 28,
       "magicResist": 32,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 125
     },
     "passive": {
       "name": "Voracity",
@@ -3330,7 +3371,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.658,
       "armor": 36,
       "magicResist": 32,
-      "ms": 340
+      "ms": 340,
+      "attackRange": 175
     },
     "passive": {
       "name": "Martial Cadence",
@@ -3411,7 +3453,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.69,
       "armor": 31,
       "magicResist": 28,
-      "ms": 340
+      "ms": 340,
+      "attackRange": 175
     },
     "passive": {
       "name": "Stone Skin",
@@ -3492,7 +3535,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.681,
       "armor": 27,
       "magicResist": 30,
-      "ms": 340
+      "ms": 340,
+      "attackRange": 550
     },
     "passive": {
       "name": "Blaze",
@@ -3573,7 +3617,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.651,
       "armor": 36,
       "magicResist": 32,
-      "ms": 345
+      "ms": 345,
+      "attackRange": 125
     },
     "passive": {
       "name": "Flurry",
@@ -3654,7 +3699,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.658,
       "armor": 23,
       "magicResist": 30,
-      "ms": 330
+      "ms": 330,
+      "attackRange": 550
     },
     "passive": {
       "name": "Night Hunter",
@@ -3735,7 +3781,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 38,
       "magicResist": 32,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 125
     },
     "passive": {
       "name": "Energize",
@@ -3816,7 +3863,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.658,
       "armor": 19,
       "magicResist": 30,
-      "ms": 340
+      "ms": 340,
+      "attackRange": 550
     },
     "passive": {
       "name": "Techmaturgical Repair Bots",
@@ -3897,7 +3945,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.638,
       "armor": 34,
       "magicResist": 32,
-      "ms": 350
+      "ms": 350,
+      "attackRange": 125
     },
     "passive": {
       "name": "Soul Eater",
@@ -3978,7 +4027,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.638,
       "armor": 32,
       "magicResist": 30,
-      "ms": 340
+      "ms": 340,
+      "attackRange": 525
     },
     "passive": {
       "name": "Prowl",
@@ -4059,7 +4109,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.675,
       "armor": 38,
       "magicResist": 32,
-      "ms": 330
+      "ms": 330,
+      "attackRange": 125
     },
     "passive": {
       "name": "Happy Hour",
@@ -4140,7 +4191,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.658,
       "armor": 40,
       "magicResist": 28,
-      "ms": 345
+      "ms": 345,
+      "attackRange": 175
     },
     "passive": {
       "name": "Aegis Protection",
@@ -4221,7 +4273,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 24,
       "magicResist": 30,
-      "ms": 325
+      "ms": 325,
+      "attackRange": 550
     },
     "passive": {
       "name": "Rising Spell Force",
@@ -4302,7 +4355,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 38,
       "magicResist": 32,
-      "ms": 340
+      "ms": 340,
+      "attackRange": 175
     },
     "passive": {
       "name": "Perseverance",
@@ -4383,7 +4437,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 47,
       "magicResist": 32,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 125
     },
     "passive": {
       "name": "Sunlight",
@@ -4464,7 +4519,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 18,
       "magicResist": 30,
-      "ms": 335
+      "ms": 335,
+      "attackRange": 500
     },
     "passive": {
       "name": "Summon Voidling",
@@ -4544,7 +4600,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.665,
       "armor": 24,
       "magicResist": 30,
-      "ms": 330
+      "ms": 330,
+      "attackRange": 500
     },
     "passive": {
       "name": "Icathian Surprise",
@@ -4625,7 +4682,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.669,
       "armor": 19,
       "magicResist": 30,
-      "ms": 330
+      "ms": 330,
+      "attackRange": 550
     },
     "passive": {
       "name": "Illumination",
@@ -4706,7 +4764,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.668,
       "armor": 21,
       "magicResist": 30,
-      "ms": 330
+      "ms": 330,
+      "attackRange": 550
     },
     "passive": {
       "name": "Essence Theft",
@@ -4787,7 +4846,8 @@ export const CHAMPIONS = [
       "attackSpeed": 0.625,
       "armor": 26,
       "magicResist": 30,
-      "ms": 330
+      "ms": 330,
+      "attackRange": 550
     },
     "passive": {
       "name": "Pix, Faerie Companion",

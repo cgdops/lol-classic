@@ -189,7 +189,7 @@ export default function ChampionGrid({ onSelectChampion }) {
             <div style={{
               display: 'flex',
               justify: 'space-between',
-              fontSize: '0.68rem',
+              fontSize: '0.65rem',
               color: '#C8AA6E',
               borderTop: '1px solid rgba(120, 90, 40, 0.3)',
               paddingTop: '0.4rem',
@@ -197,7 +197,7 @@ export default function ChampionGrid({ onSelectChampion }) {
             }}>
               <span>HP {champ.stats.hp}</span>
               <span>AD {champ.stats.attackDamage}</span>
-              <span>MS {champ.stats.ms}</span>
+              <span>RNG {champ.stats.attackRange || 125}</span>
             </div>
           </div>
         ))}
