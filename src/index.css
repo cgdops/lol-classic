@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-dark: #07090E;
+  --bg-card: rgba(13, 17, 26, 0.85);
+  --bg-card-hover: rgba(22, 30, 48, 0.95);
+  --gold-primary: #C8AA6E;
+  --gold-glow: #F0E6D2;
+  --gold-border: #785A28;
+  --cyan-primary: #0AC8B9;
+  --cyan-glow: #00F0FF;
+  --text-main: #F0E6D2;
+  --text-muted: #949084;
+  --font-title: 'Cinzel', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--bg-dark);
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(10, 200, 185, 0.08) 0%, transparent 60%),
+    radial-gradient(circle at 10% 90%, rgba(200, 170, 110, 0.05) 0%, transparent 50%);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-title {
+  font-family: var(--font-title);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Glassmorphic Container */
+.glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--gold-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+}
+
+/* Gold Button */
+.btn-gold {
+  background: linear-gradient(180deg, #C8AA6E 0%, #785A28 100%);
+  color: #090B10;
+  font-weight: 700;
+  font-family: var(--font-title);
+  border: 1px solid #F0E6D2;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-gold:hover {
+  background: linear-gradient(180deg, #F0E6D2 0%, #C8AA6E 100%);
+  box-shadow: 0 0 15px rgba(200, 170, 110, 0.6);
+  transform: translateY(-1px);
+}
+
+.btn-cyan {
+  background: linear-gradient(180deg, #0AC8B9 0%, #03655D 100%);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-family: var(--font-title);
+  border: 1px solid #00F0FF;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-cyan:hover {
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+  transform: translateY(-1px);
+}
+
+/* Full Screen Champion View Overlay */
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #05070C;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  touch-action: pan-y;
+  animation: fadeIn 0.25s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07090E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gold-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-primary);
+}
+
+/* Image Shimmer & Loading Optimization */
+.img-shimmer {
+  background: linear-gradient(90deg, #090b10 0%, #161e30 50%, #090b10 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.img-fade-in {
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.img-fade-in.loaded {
+  opacity: 1;
+}
+
+/* Mobile Responsive Utility Rules */
+@media (max-width: 640px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+
